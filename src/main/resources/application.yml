@@ -1,0 +1,32 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: local
+
+feign:
+  client:
+    config:
+      default:
+        logger-level: full
+        connect-timeout: 5000
+        read-timeout: 5000
+
+slack:
+  webhook-url: https://hooks.slack.com/services/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
+
+book:
+  reserve-topic: book.reservation.test
+
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+
+
+
+
+
