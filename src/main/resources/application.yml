@@ -14,10 +14,10 @@ feign:
         read-timeout: 5000
 
 slack:
-  webhook-url: https://hooks.slack.com/services/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
+  webhook-url: slack url 세팅..
 
 book:
-  reserve-topic: book.reservation.test
+  reserve-topic: book.reservation
 
 ---
 spring:
